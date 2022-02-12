@@ -148,8 +148,8 @@ client.on('ready', () => {
     db.set('is_first_sync', true);
 
     const messages = [
-        `🕊️ Ce projet libre et gratuit demande du temps. Si vous en avez les moyens, n'hésitez pas à soutenir le développement avec un don ! https://paypal.me/andr0z\n`,
-        `🤟 Le saviez-vous ? Nous proposons notre propre version du bot en ligne 24/24 7/7 sans que vous n'ayez besoin de vous soucier de quoi que ce soit ! https://distrobot.fr\n`
+        `🕊️ `,
+        `🤟 `
     ];
     let idx = 0;
     const donate = () => console.log(messages[ idx % 2 ]);
